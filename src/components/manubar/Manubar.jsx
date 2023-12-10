@@ -16,7 +16,7 @@ const Manubar = () => {
                 <NavList link={'#home'} icon={FaHome} title={'Home'} />
                 <NavList link={'#about'} icon={FaUser} title={'About'} />
                 <NavList link={'#skills'} icon={SiSololearn} title={'Skill'} />
-                <NavList link={'#project'} icon={BsMotherboardFill} title={'Projects'} />
+                <NavList link={'#projects'} icon={BsMotherboardFill} title={'Projects'} />
                 <NavList link={'#contact'} icon={FaHome} title={'Contact'} />
                 <NavList link={'#contact'} icon={FaHome} title={'Resume'} />
             </div>

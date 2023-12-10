@@ -4,6 +4,7 @@ import Manubar from "../components/manubar/Manubar";
 import HomeDefine from "../pages/Home/HomeDefine";
 import About from "../pages/about/About";
 import SkillPage from "../pages/skill/SkillPage";
+import Projects from "../pages/projects/Projects";
 
 const MainLayouts = () => {
     const [isActive, setActive] = useState(false);
@@ -26,6 +27,7 @@ const MainLayouts = () => {
                 <HomeDefine />
                 <About />
                 <SkillPage />
+                <Projects />
             </div>
         </div>
     );
