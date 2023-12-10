@@ -3,6 +3,7 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import Manubar from "../components/manubar/Manubar";
 import HomeDefine from "../pages/Home/HomeDefine";
 import About from "../pages/about/About";
+import SkillPage from "../pages/skill/SkillPage";
 
 const MainLayouts = () => {
     const [isActive, setActive] = useState(false);
@@ -24,6 +25,7 @@ const MainLayouts = () => {
             <div className="lg:ml-72 text-white w-auto min-h-auto p-5">
                 <HomeDefine />
                 <About />
+                <SkillPage />
             </div>
         </div>
     );
