@@ -12,7 +12,7 @@ const Manubar = () => {
             <div className='w-30 h-20'>
                 <img src={logo} className='w-full h-full' alt="logo" />
             </div>
-            <div className='w-full'>
+            <div className='w-full flex flex-col gap-1'>
                 <NavList address={'/'} linkTitle={'Home'} icon={FaHome} />
                 <NavList address={'about'} linkTitle={'About'} icon={FaUser} />
                 <NavList address={'skills'} linkTitle={'Skills'} icon={SiSololearn} />
