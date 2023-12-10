@@ -1,18 +1,12 @@
 /* eslint-disable react/prop-types */
-import { NavLink } from "react-router-dom";
 
-const NavList = ({address,icon:Icon,linkTitle}) => {
-    return (
-        <NavLink
-        to={address}
-        className={({ isActive }) =>
-        ` flex items-center text-[18px] dark:hover:text-black font-medium px-4 py-2 duration-200 transform  hover:bg-gray-300  hover:text-gray-700 rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100  ${
-          isActive ? 'dark:text-blue-700 bg-gray-300 text-blue-700 ' : 'text-gray-400 dark:text-white'
-        }`} >
-        <span>{<Icon className="w-5 h-8 mr-1" />}</span>
-       {linkTitle}
-      </NavLink>
-    );
-};
+const NavList = ({ link, icon: Icon, title }) => {
+  return (
+    <a href={link} className="flex items-center text-[18px] ml-8 dark:hover:text-black font-medium px-4 py-2 duration-200 transform rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100 text-xl text-[#17c0eb] ">
+      <span><Icon className="w-5 h-5 mr-1" /> </span>
+      {title}
+    </a>
+  );
+}
 
 export default NavList;
