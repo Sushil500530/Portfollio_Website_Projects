@@ -5,6 +5,8 @@ import HomeDefine from "../pages/Home/HomeDefine";
 import About from "../pages/about/About";
 import SkillPage from "../pages/skill/SkillPage";
 import Projects from "../pages/projects/Projects";
+import ContactSection from "../pages/contact/ContactSection";
+import Footer from "../pages/footer/Footer";
 
 const MainLayouts = () => {
     const [isActive, setActive] = useState(false);
@@ -28,6 +30,8 @@ const MainLayouts = () => {
                 <About />
                 <SkillPage />
                 <Projects />
+                <ContactSection />
+                <Footer />
             </div>
         </div>
     );
