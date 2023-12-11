@@ -1,22 +1,40 @@
+import AOS from "aos";
 import { MdContactPhone } from "react-icons/md";
 const ContactSection = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         alert('your submission is granted')
     }
+    AOS.init({
+        duration: 1800,
+        throttleDelay: 99,
+    })
     return (
         <div id="contact" className="pt-12">
-            <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Contect Me</h1>
+            <h1 data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="right-center" className="text-2xl font-bold text-[#7d5fff] ml-5">Contect Me</h1>
             <hr className='w-44 border-b-2 border-fuchsia-600 mt-2' />
             <div className="w-full flex-col lg:flex-row flex bg-gradient-to-l from-[#40407a] to-black text-gray-400 px-6 rounded-lg py-12 items-center justify-center space-y-3 gap-10 mt-10">
-                <div className="w-full lg:w-1/2">
-                    <div className="contact-title">
-                        <div>
-                            <img src="https://i.ibb.co/cgcYzH1/Contact-Us-png-1.png" alt="Contact" />
-                        </div>
+                <div data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="top-center" className="w-full lg:w-1/2">
+                    <div>
+                        <img src="https://i.ibb.co/cgcYzH1/Contact-Us-png-1.png" alt="Contact" />
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="left-center" className="w-full lg:w-1/2">
                     <div className="form text-white">
                         <form onSubmit={handleSubmit}>
                             <div className="mb-5 space-y-3">
