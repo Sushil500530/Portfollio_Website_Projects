@@ -5,7 +5,7 @@ import { SiSololearn } from "react-icons/si";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { BsMotherboardFill } from "react-icons/bs";
 import logo from '../../assets/Screenshot 2023-12-10 135857.png'
-import pfd from '../../assets/TextQuesAnsPDF.pdf'
+import pfd from '../../assets/Sushil_Resumi.pdf'
 
 
 const Manubar = () => {
