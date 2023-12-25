@@ -4,15 +4,15 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { SiSololearn } from "react-icons/si";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { BsMotherboardFill } from "react-icons/bs";
-import logo from '../../assets/Screenshot 2023-12-10 135857.png'
+import logo2 from '../../assets/Sushil (2).gif'
 import pfd from '../../assets/Sushil_Resumi.pdf'
 
 
 const Manubar = () => {
     return (
-        <div className='flex flex-col items-center justify-between gap-48'>
-            <div className='w-30 h-20'>
-                <img src={logo} className='w-full h-full' alt="logo" />
+        <div className='flex flex-col items-center justify-between md:gap-28 lg:gap-28 '>
+            <div className='w-full h-40'>
+                <img src={logo2} className='w-full h-full' alt="logo" />
             </div>
             <div className='w-full flex flex-col gap-1'>
                 <NavList link={'#home'} icon={FaHome} title={'Home'} />

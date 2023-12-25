@@ -1,13 +1,8 @@
-import AOS from 'aos';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../components/shared/variants';
 
 
 const SkillPage = () => {
-    AOS.init({
-        duration: 1800,
-        throttleDelay: 99,
-    })
     return (
         <div id='skills' className="pt-12">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Skills</h1>

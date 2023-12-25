@@ -8,10 +8,10 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="footer footer-center mt-8 lg:p-10  rounded text-white">
+        <div className="footer footer-center mt-8 pb-5 lg:p-10  rounded text-white">
             <footer className="w-full h-full">
                 <nav>
-                    <ul className=" flex items-center justify-center gap-6">
+                    <ul className=" flex items-center justify-center gap-3">
                         <span className="tooltip" data-tip="Facebook">
                             <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><a href="https://tinyurl.com/46j32cs7" target="_blank" ><FaFacebook className="w-full h-full p-1 cursor-pointer " /></a></li>
                         </span>

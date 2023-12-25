@@ -7,16 +7,20 @@ export const fadeIn = (direction, delay) => {
         show: {
             y: 0,
             x: 0,
-            opacity: 1,
+            opacity: 100,
             transition: {
                 opacity: 1,
                 transition: {
+                //    type: "spring",
+                //      duration: 5000,
+                //      bounce: 0.6
+                    
                     type: 'tween',
-                    duration:3,
+                    duration:0.75,
                     delay:delay,
-                    ease: [0.50, 0.50, 0.50, 0.75]
-                }
-            }
+                   
+               }
+          }
 
         }
     }

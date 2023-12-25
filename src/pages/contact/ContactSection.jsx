@@ -18,7 +18,7 @@ const ContactSection = () => {
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Contect Me</h1>
             <hr className='w-44 border-b-2 border-fuchsia-600 mt-2' />
             <div className="w-full flex-col lg:flex-row flex bg-gradient-to-l from-[#40407a] to-black text-gray-400 px-6 rounded-lg py-12 items-center justify-center space-y-3 gap-10 mt-10">
-                <motion.div variants={fadeIn("up", 3)} initial="hidden" whileInView={"show"}
+                <motion.div variants={fadeIn("right", 3)} initial="hidden" whileInView={"show"}
                     className="w-full lg:w-1/2">
                     <div>
                         <img src="https://i.ibb.co/cgcYzH1/Contact-Us-png-1.png" alt="Contact" />

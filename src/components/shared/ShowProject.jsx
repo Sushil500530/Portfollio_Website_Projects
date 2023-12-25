@@ -1,22 +1,12 @@
 /* eslint-disable react/prop-types */
 
-import { DNA } from "react-loader-spinner";
+const ShowProject = ({id, livePhoto, clientSite, ServerSite, title, description }) => {
 
-const ShowProject = ({ id, livePhoto, clientSite, ServerSite, title, description, loading }) => {
     return (
         <>
         {/* Open the modal using document.getElementById('ID').showModal() method */}
             <dialog id={id} className="modal modal-center sm:modal-middle">
-                {loading && <>
-                    <DNA
-                        visible={true}
-                        height="80"
-                        width="80"
-                        ariaLabel="dna-loading"
-                        wrapperStyle={{}}
-                        wrapperClass="dna-wrapper"
-                    />
-                </>}
+               
                 <div className="modal-box w-11/12 h-auto max-w-5xl overflow-visible bg-gradient-to-b from-[#40407a] to-black border border-[#8e71ff] p-2 md:p-5 lg:p-5">
                     <div className='cursor-pointer rounded-lg w-full h-[180px] md:h-[280px] lg:h-[280px]'>
                         <img src={livePhoto} alt="link show" className="rounded-lg w-full h-full" />

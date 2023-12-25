@@ -9,7 +9,7 @@ const About = () => {
             <hr className='w-40 border-b-2 border-fuchsia-600 mt-2' />
             <div className="flex flex-col lg:flex-row gap-5 w-full h-auto items-center pt-10">
                 <motion.div variants={fadeIn("right", 3)} initial="hidden" whileInView={"show"}
-                    className='w-1/4 lg:w-1/3 mx-0'>
+                    className='w-2/3 md:w-1/3 lg:w-1/3 mx-0'>
                     <div className='border-4 hover:border-fuchsia-600 transition cursor-pointer border-[#7d5fff] rounded-full w-full'>
                         <img src={image} className='w-full h-full rounded-full' alt="" />
                     </div>
